@@ -13,6 +13,11 @@ function obterNumeroAleatorio (min,max){
   if (de >= ate) {
     alert('Campo "Do número" deve ser inferior ao campo "Até o número". Verifique!');
     return;
+  } if {
+    if (quantidade > (ate - de + 1)) {
+    alert('Campo "Quantidade" deve ser menor ou igual ao intervalo informado no campo "Do número" até o campo "Até o número". Verifique!');
+    return;
+  }
   }
 
     // Repetir a funçao a quantidade de vezes escolhidas pelo usuario
