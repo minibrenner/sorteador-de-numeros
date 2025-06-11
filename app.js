@@ -10,7 +10,10 @@ function sortear (){
 function obterNumeroAleatorio (min,max){
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
-
+  if (de >= ate) {
+    alert('Campo "Do número" deve ser inferior ao campo "Até o número". Verifique!');
+    return;
+  }
 
     // Repetir a funçao a quantidade de vezes escolhidas pelo usuario
     for (let i = 0; i < quantidade; i++) {
